@@ -1,0 +1,18 @@
+{
+  "name": "tsconfig-paths-main-cjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc && node ./lib/main.js",
+    "start-paths": "tsc && node -r tsconfig-paths/register ./lib/main.js"
+  },
+  "dependencies": {
+    "colorette": "^1.2.1"
+  },
+  "devDependencies": {
+    "ts-node": "^8.10.2",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.9.7"
+  }
+}

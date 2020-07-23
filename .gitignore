@@ -1,0 +1,21 @@
+# Dependency directory
+node_modules
+
+# Output
+lib
+
+# Build cache
+tsconfig.tsbuildinfo
+
+# Other
+.DS_Store
+thumbs.db
+*.log
+processed.txt
+
+# VS
+.vs
+
+# Cache
+.yarn-cache
+.eslintcache
